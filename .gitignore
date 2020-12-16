@@ -1,0 +1,13 @@
+# Folders
+/.idea
+/.gradle
+/build
+/gradle
+/target
+/docker-compose.yml
+
+# Files
+gradlew
+gradlew.bat
+settings.gradle
+*.iml
