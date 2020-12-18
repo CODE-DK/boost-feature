@@ -13,4 +13,10 @@ public class HealthController {
         log.info("I'm alive!!");
         return "OK";
     }
+
+    @GetMapping("/environment")
+    public String getEnvironment() {
+        log.info("Report environment");
+        return System.getenv().toString();
+    }
 }
